@@ -1,0 +1,20 @@
+.card,.featureCard2{
+    transition:all  ;
+    transition-duration: 500ms;
+}
+.card:hover{
+    box-shadow: 4px 4px 4px lightgray;
+    
+}
+.card:hover .cardicon{
+    background-color: rgb(10, 122, 159);
+  
+}
+.featureCard2:hover{
+    box-shadow: 4px 4px 4px black;
+}
+.featureCard2:hover .featureCardIcon{
+    background-color: rgb(10, 122, 159);
+}
+
+
